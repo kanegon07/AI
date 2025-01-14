@@ -1,0 +1,119 @@
+# ========================
+# .gitignoreの設定
+# ========================
+# .gitignoreは、Gitが追跡しないファイルやフォルダを指定します。
+# プロジェクトのルートディレクトリに配置してください。
+# 100MB以上のファイルはエラーが出るため、無視リストに追加する必要があります。
+
+# ========================
+# Unityが生成するキャッシュや一時ファイル
+# ========================
+[Ll]ibrary/                 # Unityが生成するキャッシュファイル
+[Tt]emp/                    # 一時ファイル
+[Oo]bj/                     # C#コードのビルド成果物
+[Bb]uild/                   # ビルド済みの成果物
+[Bb]uilds/                  # 複数プラットフォーム用のビルド済み成果物
+[Ll]ogs/                    # Unityのログファイル
+[Uu]ser[Ss]ettings/         # 開発環境ごとの個別設定
+[Mm]emoryCaptures/          # メモリプロファイリングファイル
+[Rr]ecordings/              # 録画ファイル
+ShaderCache/                # シェーダーキャッシュ
+
+# ========================
+# アセットストアツール
+# ========================
+[Aa]ssets/AssetStoreTools*  # Unityアセットストアのツールセット
+
+# ========================
+# IDE/エディタ関連
+# ========================
+[Aa]ssets/Plugins/Editor/JetBrains*  # JetBrains Rider用プラグイン
+.vs/                            # Visual Studioのキャッシュディレクトリ
+.vscode/                        # Visual Studio Codeの設定ディレクトリ
+.gradle/                        # Gradleのキャッシュディレクトリ
+ExportedObj/                   # 自動生成されるプロジェクトファイル
+.consulo/                       # Consuloのプロジェクトファイル
+*.csproj                        # Visual Studioのプロジェクトファイル
+*.unityproj                     # Unityプロジェクトファイル
+*.sln                           # ソリューションファイル
+*.suo                           # ソリューションユーザーオプションファイル
+*.tmp                           # 一時ファイル
+*.user                          # ユーザーファイル
+*.userprefs                     # ユーザープリファレンス
+*.pidb                          # プロジェクトデータベースファイル
+*.booproj                       # Booprojファイル
+*.svd                           # SVDファイル
+*.pdb                           # プログラムデータベースファイル
+*.mdb                           # MDBファイル
+*.opendb                        # OpenDBファイル
+*.VC.db                         # VCデータベースファイル
+[Dd]ebug/                       # デバッグ関連ファイル
+.idea/                          # IntelliJ IDEAの設定ファイル
+
+# ========================
+# メタファイル
+# ========================
+*.pidb.meta                    # Unityが生成するメタファイル
+*.pdb.meta                     # PDBメタファイル
+*.mdb.meta                     # MDBメタファイル
+
+# ========================
+# クラッシュレポート
+# ========================
+sysinfo.txt                    # Unityのクラッシュレポートファイル
+
+# ========================
+# ビルド成果物
+# ========================
+*.apk                          # Android APKファイル
+*.aab                          # Android AABファイル
+*.unitypackage                 # Unityパッケージファイル
+*.app                          # Macアプリケーション
+
+# ========================
+# その他のキャッシュや生成ファイル
+# ========================
+.DS_Store                      # macOSの隠しファイル
+crashlytics-build.properties    # Crashlyticsの生成ファイル
+[Bb]urstCache/                 # Burst Compilerが生成するキャッシュ
+[Pp]ackage[Cc]ache/            # Package Cache（自動生成）
+StreamingAssets/               # Playモードやシーンのキャッシュ情報が含まれるフォルダ
+Artifacts/                     # 自動生成されたアーティファクト
+[Bb]ee/                        # Unityのビルド関連ファイル
+[Ss]tate[Cc]ache/              # ステートキャッシュ
+MemoryCaptures/                # メモリ確認のためのキャプチャフォルダ
+
+# ========================
+# 特定のライブラリファイルとアセットファイル
+# ========================
+libburst-llvm-14.dylib        # Burst Compiler用のライブラリファイル
+ArtifactDB                     # アーティファクトデータベースファイル
+aosagi SDF.asset               # 特定のアセットファイル
+LightNovelPOPv2 SDF.asset      # 特定のアセットファイル
+LINESeedJP_TTF_Bd SDF.asset    # 特定のアセットファイル
+
+
+# ========================
+# 一般的に無視するファイルやフォルダ
+# ========================
+Logs/                          # ログファイル
+Tutorial_Test_ver1_1/mono_crash.6522e30a6.0.json  # 特定のクラッシュレポートファイル
+Packages/                      # パッケージ情報（Package Managerが管理）
+
+.vscode/
+Tutorial_Test_ver1_1/Assets/5_UnityPickUpTips/1_Other/14_Async_Await_UniTask/.DS_Store
+Tutorial_Test_ver1_1/Assets/_Preparing Sample/.DS_Store
+Tutorial_Test_ver1_1/Assets/.DS_Store
+Library/
+Logs/
+Packages/
+Tutorial_Test_ver1_1/ProjectSettings/.DS_Store
+Tutorial_Test_ver1_1/.DS_Store
+Tutorial_Test_ver1_1/Assets/Fonts/LINESeedJP_TTF_Bd SDF.asset
+Tutorial_Test_ver1_1/Assets/Fonts/LightNovelPOPv2 SDF.asset
+Tutorial_Test_ver1_1/Assets/Fonts/aosagi SDF.asset
+*.csproj
+*.sln
+.DS_Store
+Tutorial_Test_ver1_1/mono_crash.6522e30a6.0.json
+Temp/
