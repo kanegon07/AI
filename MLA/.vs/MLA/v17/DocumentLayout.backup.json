@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\AI\u5B66\u7FD2\\MLA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{982CAACA-B753-0566-BCB1-FC1FF89706EC}|Assembly-CSharp.csproj|c:\\ai\u5B66\u7FD2\\mla\\assets\\script\\testagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{982CAACA-B753-0566-BCB1-FC1FF89706EC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\testagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982CAACA-B753-0566-BCB1-FC1FF89706EC}|Assembly-CSharp.csproj|C:\\AI\u5B66\u7FD2\\MLA\\assets\\script\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{982CAACA-B753-0566-BCB1-FC1FF89706EC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d3750d8a-574b-4fb3-b7e2-aa8af40e8231}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Move.cs",
+              "DocumentMoniker": "C:\\AI\u5B66\u7FD2\\MLA\\Assets\\Script\\Move.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Move.cs",
+              "ToolTip": "C:\\AI\u5B66\u7FD2\\MLA\\Assets\\Script\\Move.cs",
+              "RelativeToolTip": "Assets\\Script\\Move.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T01:21:05.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestAgent.cs",
+              "DocumentMoniker": "C:\\AI\u5B66\u7FD2\\MLA\\Assets\\Script\\TestAgent.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\TestAgent.cs",
+              "ToolTip": "C:\\AI\u5B66\u7FD2\\MLA\\Assets\\Script\\TestAgent.cs",
+              "RelativeToolTip": "Assets\\Script\\TestAgent.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAQwFUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T01:05:25.984Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
